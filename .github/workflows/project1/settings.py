@@ -118,7 +118,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-AUTH_KEY = "362041AVsFKaH2W60bce0f1P1"
+AUTH_KEY = "your_auth_key"
 
 
 # Static files (CSS, JavaScript, Images)
