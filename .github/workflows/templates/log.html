@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body>
+<div color="red"><center><h1>Get your Self Register</h1>
+<form method="post" action="ver">
+   {% csrf_token %}
+   Name: <input type="text" name="name" placeholder="username"><br><br>
+   Mobile: <input type="text" name="mobile" placeholder="mobile number"><br><br>
+    <input type="submit">
+    <h2 > Note: You will get an otp on above number </h2>
+</center></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>otp</title>
+</head>
+<body>
+<div><center>
+    <h2>{{mess}}</h2>
+
+    <h3>OTP is send on {{mobi}}</h3>
+<form method="post" action="otp">
+{% csrf_token %}
+<input type="text" name="otp" placeholder="OTP"><br><br>
+<input type='submit'></form>
+</center></div></body>
+</html>
